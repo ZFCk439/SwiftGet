@@ -2,7 +2,9 @@
 It is an advanced Linux downloader, designed to provide an ultra-fast and easy-to-use download experience, and works seamlessly with various Linux distributions such as Termux, Kali, Arch, and Debian.
 
 Requirements:
+
 • Linux operating system.
+
 • Python 3.6 or newer.
 
 Steps for installing:
