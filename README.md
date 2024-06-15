@@ -4,15 +4,24 @@ A tool similar to the famous wget in Linux, but it is faster and smoother in dow
 For install:
 
 Linux:
-     apt update/
-     apt upgrade/ 
+
+     apt update
+     
+     apt upgrade
+     
      git clone(git Url)
-     cd SwiftGet/
-     pip3 install -r requirements.txt/
-     mv SwiftGet ../usr/bin/
-     SwiftGet/ 
+     
+     cd SwiftGet
+     
+     pip3 install -r requirements.txt
+     
+     mv SwiftGet ../usr/bin
+     
+     SwiftGet
+     
 Termux:
-     pkg update/
+
+     pkg update
      
      pkg upgrade
      
