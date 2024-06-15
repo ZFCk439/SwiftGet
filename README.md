@@ -9,7 +9,7 @@ Linux:
      
      apt upgrade
      
-     git clone(git Url)
+     git clone https://github.com/ZFCk439/SwiftGet.git
      
      cd SwiftGet
      
@@ -24,8 +24,10 @@ Termux:
      pkg update
      
      pkg upgrade
+
+     pkg install git
      
-     git clone (git Url)
+     git clone https://github.com/ZFCk439/SwiftGet.git
      
      cd SwiftGet 
      
