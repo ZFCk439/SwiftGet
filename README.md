@@ -1,36 +1,49 @@
-# SwiftGet
-A tool similar to the famous wget in Linux, but it is faster and smoother in downloading and analyzing files. This is only a trial version and is still under development.
+#SwiftGet
+It is an advanced Linux downloader, designed to provide an ultra-fast and easy-to-use download experience, and works seamlessly with various Linux distributions such as Termux, Kali, Arch, and Debian.
 
-For install:
+Requirements:
+• Linux operating system.
+• Python 3.6 or newer.
 
-Linux:
+Steps for installing:
 
-     sudo apt-get update
-     
-     sudo apt-get upgrade
-     
-     sudo git clone https://github.com/ZFCk439/SwiftGet.git
-     
-     cd SwiftGet
-     
-     sudo pip3 install -r requirements.txt
-     
-     sudo python3 main.py
-     
-Termux:
+1.Clonning The reposity:
 
-     pkg update
-     
-     pkg upgrade
+    git clone
+    https://github.com/ZFCk/SwiftGet.git
 
-     pkg install git
-     
-     git clone https://github.com/ZFCk439/SwiftGet.git
-     
-     cd SwiftGet 
-     
-     pip3 install -r requirements.txt
-     
-     python3 main.py
+    cd SwiftGet
 
-The tool is still under development and other things will be added in the future. Also, do not change its path from the office in order for it to work with all capabilities {$HOME}.
+2.Create a virtual environment (optional):
+
+    python3 -m venv env source env/bin/activate
+
+3.Installing Requirements:
+
+    pip install -r requirements.txt
+    
+4.Run SwiftGet:
+
+    python swiftget.py
+
+Using:
+
+•Download Files:
+    
+    python3 swiftget.py https://example.com/file.zip
+    
+•Download Double Files:
+    
+    python3 swiftget.py https://example.com/file1.zip https://example.com/file2.zip
+    
+•Select Max Speed for downloading:
+    
+    python3 swiftget.py --limit-rate 500k https://example.com/file.zip
+
+License:
+
+•SwiftGet is distributed under the MIT License.  See LICENSE for more details.
+
+Image For The Tool:
+![SwiftGet](https://github.com/ZFCk439/SwiftGet/assets/172911108/3dcdc8be-b5e8-4b00-8807-1c7bf9a5c52e)
+
