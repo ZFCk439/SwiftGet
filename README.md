@@ -5,9 +5,9 @@ For install:
 
 Linux:
 
-     sudo apt update
+     sudo apt-get update
      
-     sudo apt upgrade
+     sudo apt-get upgrade
      
      sudo git clone https://github.com/ZFCk439/SwiftGet.git
      
