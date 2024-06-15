@@ -9,7 +9,7 @@ Linux:
      
      sudo apt upgrade
      
-      sudo git clone https://github.com/ZFCk439/SwiftGet.git
+     sudo git clone https://github.com/ZFCk439/SwiftGet.git
      
      cd SwiftGet
      
