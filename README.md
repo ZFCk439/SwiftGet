@@ -5,17 +5,17 @@ For install:
 
 Linux:
 
-     apt update
+     sudo apt update
      
-     apt upgrade
+     sudo apt upgrade
      
-     git clone https://github.com/ZFCk439/SwiftGet.git
+      sudo git clone https://github.com/ZFCk439/SwiftGet.git
      
      cd SwiftGet
      
-     pip3 install -r requirements.txt
+     sudo pip3 install -r requirements.txt
      
-     python3 main.py
+     sudo python3 main.py
      
 Termux:
 
