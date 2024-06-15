@@ -15,9 +15,7 @@ Linux:
      
      pip3 install -r requirements.txt
      
-     mv SwiftGet ../usr/bin
-     
-     SwiftGet
+     python3 main.py
      
 Termux:
 
@@ -33,12 +31,6 @@ Termux:
      
      pip3 install -r requirements.txt
      
-     mv SwiftGet ../use/bin
-     
-     SwiftGet 
-     
-     
-For Starting:
-     Write {swiftget}
+     python3 main.py
 
 The tool is still under development and other things will be added in the future. Also, do not change its path from the office in order for it to work with all capabilities {$HOME}.
